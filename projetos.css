@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #e9eeda;
+}
+
+nav {
+  background-color: #e9eeda;
+  height: 70px;
+  font-family: "Poppins";
+}
+
+nav p {
+  font-family: "Poppins";
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #487aa1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 15px;
+  padding-left: 900px;
+  margin-top: -20px;
+}
+
+nav ul li:hover {
+  color: #487aa1;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #487aa1;
+}
+
+#meus-projetos {
+  height: 150px;
+  background-image: linear-gradient(
+    90deg,
+    #5ba1d7 0%,
+    #9bbdd7 50%,
+    #ceeaff 100%
+  );
+  font-family: "Rufina";
+  font-size: 50px;
+  color: #487aa1;
+  text-align: center;
+  padding-top: 45px;
+}
+
+footer {
+  margin-top: 650px;
+  height: 400px;
+  background-color: #b2d9f7;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  color: #487aa1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-seçao h4 {
+  margin-top: 80px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+}
+
+.footer-seçao p,
+.footer-seçao ul {
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: "Poppins";
+}
+
+.footer-seçao ul {
+  list-style: none;
+}
+
+.footer-seçao ul li {
+  margin-bottom: 10px;
+}
+
+.social-icones {
+  display: flex;
+  margin-left: 80px;
+}
+
+.social-icones a {
+  margin-right: 10px;
+}
+
+.social-icones img {
+  width: 20px;
+  height: 20px;
+}
+
+#recursos {
+  padding-left: 50px;
+}
+
+#lista-recursos {
+  padding-left: 50px;
+}
+
+#me-siga {
+  padding-left: 120px;
+}
+
+footer a {
+  color: #487aa1;
+}
+
+#ogani-img {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 85px;
+  top: 150px;
+}
+
+#delivery-img {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 435px;
+  top: 150px;
+}
+
+#tabela-img {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 785px;
+  top: 150px;
+}
+
+#elit-img {
+  border-radius: 20px;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  left: 1135px;
+  top: 150px;
+}
+
+main {
+  position: relative;
+}
+
+main ul {
+  display: flex;
+  font-family: "Poppins";
+  color: #487aa1;
+  font-weight: 600;
+  font-size: 16px;
+  gap: 260px;
+  list-style: none;
+  position: absolute;
+  left: 150px;
+  top: 480px;
+}
+
+#tabela-periodica {
+  margin-left: -30px;
+}
+
+#site-elit {
+  margin-left: -30px;
+}
+
+main img:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+#svg {
+  height: 24px;
+  width: 24px;
+  fill: #487aa1;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #e9eeda;
+}
+
+.dark-mode #svg {
+  fill: white;
+}
+
+.dark-mode nav,
+.dark-mode footer {
+  background-color: #222;
+}
+
+.dark-mode nav a {
+  color: #e9eeda;
+}
+
+.dark-mode #meus-projetos {
+  background-image: linear-gradient(
+    90deg,
+    #2e3a45 0%,
+    #485e72 50%,
+    #1f1f1f 100%
+  );
+  color: #e9eeda;
+}
+
+.dark-mode #ogani-img,
+.dark-mode #delivery-img,
+.dark-mode #tabela-img,
+.dark-mode #elit-img {
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  background-color: #e9eeda;
+  height: 70px;
+  font-family: "Poppins";
+}
+
+nav p {
+  font-family: "Poppins";
+  padding-left: 40px;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #487aa1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 15px;
+  padding-left: 900px;
+  margin-top: -20px;
+}
+
+nav ul li:hover {
+  color: #487aa1;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #487aa1;
+}
+
+.social-icones {
+  display: flex;
+  margin-left: 80px;
+}
+
+#meu-contato {
+  height: 150px;
+  background-image: linear-gradient(
+    90deg,
+    #5ba1d7 0%,
+    #9bbdd7 50%,
+    #ceeaff 100%
+  );
+  font-family: "Rufina";
+  font-size: 50px;
+  color: #487aa1;
+  text-align: center;
+  padding-top: 45px;
+}
+
+body {
+  background-color: #e9eeda;
+}
+
+#form-container {
+  width: 700px;
+  position: absolute;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  left: 410px;
+  top: 100px;
+  font-size: 14px;
+}
+
+#linha-input {
+  display: flex;
+  gap: 10px;
+}
+
+.input-espaço {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #c2c7b3;
+  background-color: transparent;
+  font-size: 14px;
+  color: #333;
+  border-radius: 10px;
+  height: 40px;
+  font-family: "Poppins";
+}
+
+.input-espaço::placeholder {
+  color: #999;
+  font-family: "Poppins";
+}
+
+.email-espaço {
+  position: relative;
+  top: 10px;
+  width: 100%;
+  font-family: "Poppins";
+}
+
+.mensagem-espaço::placeholder {
+  position: relative;
+  top: -100px;
+  color: #999;
+  font-family: "Poppins";
+}
+
+.mensagem-espaço {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  color: #333;
+  background-color: transparent;
+  font-size: 14px;
+  padding: 15px;
+  border: 1px solid #c2c7b3;
+  position: relative;
+  top: 25px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #487aa1;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: relative;
+  top: 50px;
+  width: 22%;
+  font-family: "Poppins";
+}
+
+button:hover {
+  background-color: #555;
+}
+
+main {
+  position: relative;
+}
+
+footer {
+  margin-top: 700px;
+  height: 400px;
+  background-color: #b2d9f7;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  color: #487aa1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-seçao h4 {
+  margin-top: 80px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: "Poppins";
+}
+
+.footer-seçao p,
+.footer-seçao ul {
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: "Poppins";
+}
+
+.footer-seçao ul {
+  list-style: none;
+}
+
+.footer-seçao ul li {
+  margin-bottom: 10px;
+}
+
+.social-icones a {
+  margin-right: 10px;
+}
+
+.social-icones img {
+  width: 20px;
+  height: 20px;
+}
+
+#recursos {
+  padding-left: 50px;
+}
+
+#lista-recursos {
+  padding-left: 50px;
+}
+
+#me-siga {
+  padding-left: 120px;
+}
+
+footer a {
+  color: #487aa1;
+}
+
+#svg {
+  height: 24px;
+  width: 24px;
+  fill: #487aa1;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #e9eeda;
+}
+
+body.dark-mode nav {
+  background-color: #222;
+}
+
+body.dark-mode nav ul li a {
+  color: #e9eeda;
+}
+
+body.dark-mode nav ul li a:hover {
+  color: #ccc;
+}
+
+body.dark-mode .input-espaço {
+  color: white;
+}
+
+body.dark-mode #meu-contato {
+  background-image: linear-gradient(
+    90deg,
+    #2e3a45 0%,
+    #485e72 50%,
+    #1f1f1f 100%
+  );
+  color: #e9eeda;
+}
+
+body.dark-mode footer {
+  background-color: #222;
+}
+
+body.dark-mode #svg {
+  fill: #e9eeda;
+}
+
+body.dark-mode button {
+  background-color: #555;
+  color: #e9eeda;
+}
